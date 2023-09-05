@@ -3,11 +3,13 @@
 
 - 🌱 Atualmente trabalho com: **Análise de dados, levantamento de requisitos, automações, metodologia ágil, ETL e visualização de dados.**
 
-- 🔭 Estou sempre desenvolvendo meu conhecimento com: **GCP, Power BI, Tableau, SQL, Azure, Dockers, Python, Excel, etc**
+- 📄 Sobre minha experiência: **https://www.linkedin.com/in/bruno-bazzo-de-oliveira-23bb40137/**
+
+- 🔭 Desenvolvendo conhecimentos: **GCP, Power BI, Tableau, SQL, Azure, Dockers, Python, Excel, etc**
+
+- 🔭 Portfólio Dataviz [Análise de Dados](https://sites.google.com/view/dataviz-brunobazzo/home)
 
 - 📫 Como entrar em contato comigo: **bazzobruno@live.com**
-
-- 📄 Sobre minha experiência: [https://www.linkedin.com/in/bruno-bazzo-de-oliveira-23bb40137/](https://www.linkedin.com/in/bruno-bazzo-de-oliveira-23bb40137/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
