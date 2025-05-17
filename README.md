@@ -3,7 +3,7 @@
 
 - 🌱 Atualmente trabalho com: **Análise de dados, levantamento de requisitos, automações, metodologia ágil, ETL e visualização de dados.**
 
-- 📄 Sobre minha experiência: **https://www.linkedin.com/in/bruno-bazzo-de-oliveira-23bb40137/**
+- 📄 Sobre minha experiência: **https://www.linkedin.com/in/bruno-bazzo-de-oliveira-analista-dados-data-analyst/**
 
 - 🔭 Desenvolvendo conhecimentos: **GCP, Power BI, Tableau, SQL, Azure, Dockers, Python, Excel, etc**
 
