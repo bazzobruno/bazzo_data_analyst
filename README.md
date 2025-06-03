@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Bruno Bazzo</h1>
-<h3 align="center">Studies in DIO</h3>
+<h3 align="center">Studies</h3>
 
 
 <p align="left">
