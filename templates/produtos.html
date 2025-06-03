@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bazzo's Grimoire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+            background: #f8f9fa;
+        }
+        h1 {
+            color: #333;
+        }
+        form, table {
+            margin-top: 2rem;
+        }
+        input, button {
+            padding: 0.5rem;
+            margin: 0.3rem;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .msg {
+            margin-top: 1rem;
+            background-color: #d4edda;
+            color: #155724;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Produtos</h1>
+    {% if mensagem %}
+    <div class="msg">{{ mensagem }}</div>
+    {% endif %}
+    <form method="POST">
+        <input name="codigo" placeholder="Código">
+        <input name="marca" placeholder="Marca">
+        <input name="tipo" placeholder="Tipo">
+        <input name="categoria" placeholder="Categoria">
+        <input name="preco_unitario" placeholder="Preço Unitário">
+        <input name="custo" placeholder="Custo">
+        <input name="obs" placeholder="Observações">
+        <button type="submit">Adicionar</button>
+    </form>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Código</th><th>Marca</th><th>Tipo</th><th>Categoria</th><th>Preço Unitário</th><th>Custo</th><th>Observações</th>
+        </tr>
+        {% for p in produtos %}
+        <tr>
+            <td>{{ p.codigo }}</td><td>{{ p.marca }}</td><td>{{ p.tipo }}</td><td>{{ p.categoria }}</td>
+            <td>{{ p.preco_unitario }}</td><td>{{ p.custo }}</td><td>{{ p.obs }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
